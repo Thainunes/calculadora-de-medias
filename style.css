@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
+    
+    body {
+    background: linear-gradient(90deg, rgb(215, 218, 54) 0%, rgb(235, 224, 128) 100%);
+    color: #FFFFFF;
+    font-family: "Roboto Mono", monospace;
+    }
+    
+    .content {
+    text-align: center;
+    background-color: #08107e;
+    width: 50%;
+    margin: 50px auto;
+    border: solid 2px #3e8fd1;
+    padding: 1rem;
+    height: 80%;
+    }
+    
+    #img1 {
+    position: fixed;
+    right: 12px;
+    top: 12px;
+    background-color: rgba(15, 18, 165, 0.411);
+    }
+    
+    header h1 {
+    font-size: 50px;
+    padding-top: 15px;
+    }
+    
+    header p {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    }
+    
+    .page-logo {
+    max-width: 400px;
+    max-height: 60px;
+    padding-bottom: 25px;
+    }
+    
+    section input {
+    width: 500px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    border: solid 2px #4b8ad6;
+    border-radius: 20px;
+    color: black;
+    margin-bottom: 10px;
+    }
+    
+    .button {
+    margin-top: 1rem;
+    width: 150px;
+    height: 50px;
+    background: #022b5e;
+    color: white;
+    font-size: 18px;
+    border: solid 1px #285996;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 1s;
+    }
+    
+    .button:hover {
+    background: #0F54A8;
+    }
+
+    .texto--padrao {
+        margin-top: 20px;
+        font-family: "Roboto Mono", monospace;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
